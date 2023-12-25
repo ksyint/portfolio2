@@ -1,0 +1,9 @@
+_target_: core.module.preprocess.audio_feature.module.AudioFeatureExtra
+defaults:
+  - _self_
+  - backbone: wav2vec
+  - dataset: preprocess_audio
+
+batch_size: 1
+num_workers: 4
+save_path: "./audio_feature"

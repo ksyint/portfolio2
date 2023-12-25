@@ -1,0 +1,10 @@
+_target_: core.module.preprocess.landmarks_detection.module.LandmarksDetection
+defaults:
+  - _self_
+  - backbone: landmark
+  - detection: Null
+  - dataset: preprocess_lm
+
+batch_size: 1
+num_workers: 4
+save_path: "./landmark"

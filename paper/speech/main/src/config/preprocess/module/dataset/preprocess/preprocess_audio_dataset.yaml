@@ -1,0 +1,2 @@
+_target_: common.dataset.preprocess.AudioDataset
+video_path: "/app/Talking_Head_Generation/dataset/LRS3"

@@ -1,0 +1,3 @@
+_target_: common.dataset.unsupervised.codebook.PCL_Dataset
+dir_path: ../lrs3
+size: 64

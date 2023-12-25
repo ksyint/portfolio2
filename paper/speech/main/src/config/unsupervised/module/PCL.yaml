@@ -1,0 +1,17 @@
+_target_: core.module.unsupervised.codebook.module.PCL
+defaults:
+  - _self_
+  - model: expose
+  - criterion: PCL_loss
+  - dataset: PCL_dataset
+
+optimizer:
+  _target_: torch.optim.Adam
+  lr: 1.0e-2
+
+scheduler:
+  _target_: torch.optim.lr_scheduler.CosineAnnealingLR
+  T_max: 6000
+batch_size: 256
+num_workers: 4
+save_path: "./PCL"

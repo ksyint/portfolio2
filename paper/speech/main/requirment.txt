@@ -1,0 +1,19 @@
+# --------- pytorch --------- #
+torch>=2.0.0
+torchvision>=0.15.0
+lightning>=2.0.0
+torchmetrics>=0.11.4
+
+# --------- hydra --------- #
+hydra-core==1.3.2
+hydra-colorlog==1.2.0
+hydra-optuna-sweeper==1.2.0
+
+git+https://github.com/huggingface/transformers.git
+torchaudio
+librosa
+jiwer
+parsivar
+num2fawords
+pytorch-toolbelt
+natsort

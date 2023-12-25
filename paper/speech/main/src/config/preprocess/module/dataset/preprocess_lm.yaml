@@ -1,0 +1,3 @@
+defaults:
+  - _self_
+  - preprocess: preprocess_landmark_dataset

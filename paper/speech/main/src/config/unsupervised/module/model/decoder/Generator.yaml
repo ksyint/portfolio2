@@ -1,0 +1,2 @@
+_target_: common.models.unsupervised.Generator
+d_model: 2048

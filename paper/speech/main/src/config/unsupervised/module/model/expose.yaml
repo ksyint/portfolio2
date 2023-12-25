@@ -1,0 +1,5 @@
+_target_: common.models.unsupervised.ExpPoseModel
+
+defaults:
+  - encoder: FaceCycleBackbone
+  - decoder: Generator

@@ -1,0 +1,3 @@
+_target_: common.models.preprocess.audio.Wav2Vec
+model_path: "masoudmzb/wav2vec2-xlsr-multilingual-53-fa"
+device: "cuda:1"

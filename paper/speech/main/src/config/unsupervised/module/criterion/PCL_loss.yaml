@@ -1,0 +1,7 @@
+_target_: common.loss.PCL_Loss
+recon_loss:
+  _target_: torch.nn.L1Loss
+diff_loss:
+  _target_: common.loss.DiffLoss
+pose_loss:
+  _target_: torch.nn.CrossEntropyLoss
